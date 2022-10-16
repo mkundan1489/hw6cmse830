@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run /Users/kundan/Desktop/project/hw_project.py
+web: sh setup.sh && streamlit run hw_project.py
