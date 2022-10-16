@@ -10,3 +10,4 @@ protobuf==3.20.1
 pyarrow==8.0.0
 scipy==1.9.1
 webencodings==0.5.1
+streamlit
