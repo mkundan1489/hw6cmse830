@@ -50,8 +50,4 @@ new_data=pd.DataFrame(data=np.round(new_array), columns=data.columns)
 final_data = new_data[new_data['age'] <= 100]
 
 fig=sns.pairplot(final_data, vars=['age', 'Class'])
-st.pyplot(fig)
-
-
-
-
+print(st.pyplot(fig))
